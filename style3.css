@@ -1,0 +1,67 @@
+body {
+    font-family: 'Lato', Verdana;
+    font-size: 100%;
+    background:  rgb(176, 204, 233);
+    float: none;
+    
+    width: 50%;
+    display: table;
+    margin: 150px 350px;
+    }
+    
+    header{
+        top: 15000px; 
+        left: 2000px;
+        background: #204e4e;
+        border-radius:  15px 15px 0 0;
+        padding: 15px;
+    }
+   
+.img img{
+    position: absolute;
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #204e4e; /* Цвет фона */
+    margin-right: 100px; /* Отступ справа */
+    margin-bottom: 100px; /* Отступ снизу */
+}
+    a{
+        text-decoration: none;
+        color: #f8f8f8;
+    }
+    
+    footer{
+        text-align: center;
+        background: #204e4e;
+        border-radius: 0 0 15px 15px ;
+        padding: 10px;
+       
+    
+    }
+    d{
+        color: rgb(255, 255, 255);
+        text-align: right;
+        font-size: 18px;
+        font-family: Arial Narrow, sans-serif;
+       }
+       d:hover
+       {
+         color: rgb(0, 0, 0);
+         font-weight: bold;
+       }
+    
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    form{
+        background: #ffffff;
+          border-radius: 5px;
+          size: 500px;
+          height: 600px;
+          width: 1200px;
+    }
+   
+    
+    
+    

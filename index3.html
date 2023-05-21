@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+   
+
+    <meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/">
+  </head>
+  <body>
+    
+    <header>
+
+        <div class="left">+7 955 555 55 55<br>
+            <a href="https://vk.com/id232862225"><img src="вк.png" width="30" height="30"></a> 
+          </div>
+          <div class="right">г.Новосибирск<br> УЛ. ТКАЦКАЯ Д.5, С.7<br>будни 12:00-05:00<br>выходные круглосуточно</div>
+          <h1><a href="index.html">  SEMENOV</a></h1>
+        <hr>
+      
+      <h3>
+        <nav>
+          <ul>
+            <div class="btngr">
+                <button><a href="index3.html">Бронирование</a></button>
+                <button><a href="index.html">Главная</a></button>
+                <button><a href="index2.html"> Отзыв</a></button>
+                <button><a href="index1.html"> Меню</a></button>
+            </div>
+          </ul>
+        </nav>
+      </h3>
+     
+    </header>
+    <hr> 
+    <main>
+      <article>
+        <section>
+          <h2>БРОНИРОВАНИЕ</h2>
+          <hr>
+          
+          <div class="form-wrap">
+ 
+    <main>
+      <form action="form.php" method="post" >
+        <label for="search">Название ТЦ</label>
+        <input type="search" id="search" name="search" value="">
+        <label for="search">Имя</label>
+        <input type="search" id="search" name="name" value="">
+        <label for="phone">Номер телефона</label>
+        <input type="tel" id="phone" name="search" value="">
+        <div class="one-third-width">
+          <label for="day">Число</label>
+          <input type="number" min="1" max="31" id="day" name="day" value="17">
+        </div>
+        <div class="two-third-width">
+          <label for="month">Месяц</label>
+          <input type="month" id="month" name="month" value="2023-09">
+        </div>
+        <div class="half-width">
+          <label for="dayscount">Количество часов</label>
+          1 <input type="range" id="dayscount" name="dayscount" min="1" max="24" step="1"> 24
+        </div>
+        <div class="half-width output-area">
+          <output name='daysoutput'>
+        </div>
+        <div class="buttons">
+          <input type="submit" value="Забронировать">
+        </div>
+      </form>
+    </main>
+    <footer class="page-footer"></footer>
+          </section>
+       
+      
+      </article>
+    </main>
+    <footer>
+      <p>@2023 SEMENOV РАЗВЛЕКАТЕЛЬНЫЙ КОМПЛЕКС
+        +7 495 604 18 18
+        
+        Г.НОВОСИБИРСК, УЛ. ТКАЦКАЯ Д.5, С.7</p>
+    </footer>
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+  </body>
+</html>
